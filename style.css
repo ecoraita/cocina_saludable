@@ -1,0 +1,17 @@
+
+ body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #eeeeeb;
+    color: #354238;
+    font-family: Arial, sans-serif;
+}
+
+/* Adaptación para pantallas grandes */
+@media (min-width: 768px) {
+    body {
+        background-size: 100% auto;
+        background-position: center bottom;
+    }
+}
